@@ -4,7 +4,7 @@
   "description": "dd",
   "main": "index.js",
   "scripts": {
-    "start":"echo '# me\n' > README.md && ls -l | awk '{if($9 ~/jpg$/){print \"## \"$9\" \\n![\"$9\"](\"$9\")\"}}'>> README.md",
+    "start":"echo '# ticket system design\n' > README.md && ls -l | awk '{if($9 ~/png$/){print \"## \"$9\" \\n![\"$9\"](\"$9\")\"}}'>> README.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
