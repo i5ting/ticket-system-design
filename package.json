@@ -1,0 +1,20 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "dd",
+  "main": "index.js",
+  "scripts": {
+    "start":"echo '# me\n' > README.md && ls -l | awk '{if($9 ~/jpg$/){print \"## \"$9\" \\n![\"$9\"](\"$9\")\"}}'>> README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i5ting/me/issues"
+  },
+  "homepage": "https://github.com/i5ting/me#readme"
+}
